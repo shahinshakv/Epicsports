@@ -1,5 +1,6 @@
 com/epic/epicsports/MainActivity.java
  com.epic.epicsports.MainActivity
+ com.epic.epicsports.MainActivity$1
 com/epic/epicsports/BuildConfig.java
  com.epic.epicsports.BuildConfig
 com/epic/epicsports/SplashScreen.java

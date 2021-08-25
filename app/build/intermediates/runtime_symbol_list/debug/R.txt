@@ -2299,7 +2299,6 @@ int id title 0x7f0801b7
 int id titleDividerNoCustom 0x7f0801b8
 int id title_template 0x7f0801b9
 int id toggle 0x7f0801ba
-int id toolbar 0x7f0801bb
 int id top 0x7f0801bc
 int id topPanel 0x7f0801bd
 int id touch_outside 0x7f0801be
@@ -2530,6 +2529,7 @@ int string character_counter_overflowed_content_description 0x7f0f0020
 int string character_counter_pattern 0x7f0f0021
 int string chip_text 0x7f0f0022
 int string clear_text_end_icon_content_description 0x7f0f0023
+int string close 0x7f0f0069
 int string error_icon_content_description 0x7f0f0024
 int string exposed_dropdown_menu_content_description 0x7f0f0025
 int string fab_transformation_scrim_behavior 0x7f0f0026
@@ -2592,6 +2592,7 @@ int string mtrl_picker_toggle_to_calendar_input_mode 0x7f0f005e
 int string mtrl_picker_toggle_to_day_selection 0x7f0f005f
 int string mtrl_picker_toggle_to_text_input_mode 0x7f0f0060
 int string mtrl_picker_toggle_to_year_selection 0x7f0f0061
+int string open 0x7f0f006a
 int string password_toggle_content_description 0x7f0f0062
 int string path_password_eye 0x7f0f0063
 int string path_password_eye_mask_strike_through 0x7f0f0064
