@@ -4,6 +4,10 @@
         "source": "/Users/igt/Desktop/Epicsports/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
+        "merged": "/Users/igt/Desktop/Epicsports/app/build/intermediates/merged_res/debug/drawable-v24_epicsports.jpg.flat",
+        "source": "/Users/igt/Desktop/Epicsports/app/src/main/res/drawable-v24/epicsports.jpg"
+    },
+    {
         "merged": "/Users/igt/Desktop/Epicsports/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "/Users/igt/Desktop/Epicsports/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
     },
@@ -50,6 +54,10 @@
     {
         "merged": "/Users/igt/Desktop/Epicsports/app/build/intermediates/merged_res/debug/drawable_splash.png.flat",
         "source": "/Users/igt/Desktop/Epicsports/app/src/main/res/drawable/splash.png"
+    },
+    {
+        "merged": "/Users/igt/Desktop/Epicsports/app/build/intermediates/merged_res/debug/drawable_epicsports.jpg.flat",
+        "source": "/Users/igt/Desktop/Epicsports/app/src/main/res/drawable/epicsports.jpg"
     },
     {
         "merged": "/Users/igt/Desktop/Epicsports/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
