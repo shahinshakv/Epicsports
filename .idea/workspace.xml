@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7237f0f9-8ebf-489f-9d0d-c3a086b94634" name="Default Changelist" comment="" />
+    <list default="true" id="7237f0f9-8ebf-489f-9d0d-c3a086b94634" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/epic/epicsports/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/epic/epicsports/MainActivity.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
