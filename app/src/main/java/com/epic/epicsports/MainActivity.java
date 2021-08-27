@@ -1,22 +1,26 @@
 package com.epic.epicsports;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
 
     private DrawerLayout dl;
     private ActionBarDrawerToggle t;
     private NavigationView nv;
+    private CardView livestream, livecricket, matchhighlights, livescore, game;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +28,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         dl = (DrawerLayout) findViewById(R.id.drawer);
+        livestream = findViewById(R.id.livestream);
+        livecricket = findViewById(R.id.livecricket);
+        matchhighlights = findViewById(R.id.matchhighlights);
+        livescore = findViewById(R.id.livescore);
+        game = findViewById(R.id.game);
+        game.setOnClickListener(this);
+        livescore.setOnClickListener(this);
+        matchhighlights.setOnClickListener(this);
+        livestream.setOnClickListener(this);
+        livecricket.setOnClickListener(this);
         t = new ActionBarDrawerToggle(this, dl, R.string.open, R.string.close);
 
         dl.addDrawerListener(t);
@@ -69,4 +83,48 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+
+            case R.id.livestream:
+                Intent intent = new Intent(this, WebViews.class);
+                intent.putExtra("url", "https://www.epicsports.site/");
+                this.startActivity(intent);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                finish();
+                break;
+
+            case R.id.livecricket:
+                Intent livecricket = new Intent(this, WebViews.class);
+                livecricket.putExtra("url", "https://www.epicsports.site/p/live-cricket.html");
+                this.startActivity(livecricket);
+                livecricket.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                finish();
+                break;
+
+            case R.id.matchhighlights:
+                Intent matchhighlights = new Intent(this, WebViews.class);
+                matchhighlights.putExtra("url", "https://www.epicsports.site/p/highlights.html");
+                this.startActivity(matchhighlights);
+                matchhighlights.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                finish();
+                break;
+
+            case R.id.livescore:
+                Intent livescore = new Intent(this, WebViews.class);
+                livescore.putExtra("url", "https://www.google.com/search?q=sports&oq=sports&aqs=chrome..69i57j69i60l4.2705j0j7&client=ms-unknown&sourceid=chrome-mobile&ie=UTF-8&ved=1t:45669#sie=lg;/m/021q23;5;/m/021q23;dt;fp;1;;");
+                this.startActivity(livescore);
+                livescore.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                finish();
+                break;
+            case R.id.game:
+                Intent game = new Intent(this, WebViews.class);
+                game.putExtra("url", "https://doodlecricket.github.io/#/");
+                this.startActivity(game);
+                game.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                finish();
+                break;
+        }
+    }
 }

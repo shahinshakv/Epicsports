@@ -6,63 +6,260 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml
+8-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml
+9-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:5:5-32:19
-12        android:allowBackup="true"
-12-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.5.0] /Users/igt/.gradle/caches/transforms-3/e759884e8e1539e68246ec4d8729cc98/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:extractNativeLibs="false"
-16        android:hardwareAccelerated="false"
-16-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:11:9-44
-17        android:icon="@mipmap/ic_launcher"
-17-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:7:9-43
-18        android:label="@string/app_name"
-18-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:8:9-41
-19        android:roundIcon="@mipmap/ic_launcher_round"
-19-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:9:9-54
-20        android:supportsRtl="true"
-20-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:10:9-35
-21        android:testOnly="true"
-22        android:theme="@style/Theme.Epicsports" >
-22-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:13:9-48
-23        <activity
-23-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:14:9-22:20
-24            android:name="com.epic.epicsports.SplashScreen"
-24-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:15:13-41
-25            android:exported="true" >
-25-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:16:13-36
-26            <intent-filter>
-26-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:17:13-21:29
-27                <action android:name="android.intent.action.MAIN" />
-27-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:18:17-69
-27-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:18:25-66
-28
-29                <category android:name="android.intent.category.LAUNCHER" />
-29-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:20:17-77
-29-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:20:27-74
-30            </intent-filter>
-31        </activity>
-32        <activity
-32-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:23:9-31:20
-33            android:name="com.epic.epicsports.MainActivity"
-33-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:24:13-41
-34            android:exported="true" >
-34-->/Users/igt/Desktop/Epicsports/app/src/main/AndroidManifest.xml:25:13-36
-35
-36            <!--
-37            <intent-filter>
-38                <action android:name="android.intent.action.MAIN" />
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-41            </intent-filter>
-42            -->
-43        </activity>
-44    </application>
-45
-46</manifest>
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:22:5-79
+12-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:22:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+13-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:23:5-68
+13-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:23:22-65
+14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+14-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:5-82
+14-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:22-79
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:5:5-49:33
+18        android:allowBackup="true"
+18-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\a6ed9dfb3abf7d8541f7a1d01bf1d39b\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:hardwareAccelerated="false"
+22-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:8:9-44
+23        android:icon="@drawable/epicsports"
+23-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:9:9-44
+24        android:label="@string/app_name"
+24-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:10:9-41
+25        android:largeHeap="true"
+25-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:7:9-33
+26        android:roundIcon="@drawable/epicsports"
+26-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:11:9-49
+27        android:supportsRtl="true"
+27-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.Epicsports" >
+29-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:13:9-48
+30        <activity
+30-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:14:9-17:50
+31            android:name="com.epic.epicsports.WebViews"
+31-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:15:13-37
+32            android:configChanges="orientation"
+32-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:17:13-48
+33            android:exported="true" />
+33-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:16:13-36
+34        <activity
+34-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:18:9-28:20
+35            android:name="com.epic.epicsports.SplashScreen"
+35-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:19:13-41
+36            android:exported="true"
+36-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:20:13-36
+37            android:screenOrientation="portrait"
+37-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:21:13-49
+38            android:theme="@style/Theme.AppCompat.NoActionBar" >
+38-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:22:13-63
+39            <intent-filter>
+39-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:23:13-27:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:24:17-69
+40-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:24:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:26:17-77
+42-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:26:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:29:9-43:20
+46            android:name="com.epic.epicsports.MainActivity"
+46-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:30:13-41
+47            android:exported="true"
+47-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:31:13-36
+48            android:hardwareAccelerated="true"
+48-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:33:13-47
+49            android:largeHeap="true"
+49-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:32:13-37
+50            android:screenOrientation="portrait" >
+50-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:34:13-49
+51
+52            <!--
+53            <intent-filter>
+54                <action android:name="android.intent.action.MAIN" />
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+57            </intent-filter>
+58            -->
+59        </activity>
+60
+61        <service
+61-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:44:9-49:15
+62            android:name="com.epic.epicsports.NotificationService"
+62-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:44:18-53
+63            android:exported="true" >
+63-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:45:13-36
+64            <intent-filter>
+64-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:46:9-48:25
+65                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+65-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:47:13-73
+65-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:47:21-71
+66            </intent-filter>
+67        </service>
+68
+69        <receiver
+69-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+70            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+70-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+71            android:exported="true"
+71-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+72            android:permission="com.google.android.c2dm.permission.SEND" >
+72-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+73            <intent-filter>
+73-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:32:13-34:29
+74                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+74-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:17-81
+74-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:25-78
+75            </intent-filter>
+76        </receiver>
+77        <!--
+78             FirebaseMessagingService performs security checks at runtime,
+79             but set to not exported to explicitly avoid allowing another app to call it.
+80        -->
+81        <service
+81-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+82            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+82-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+83            android:directBootAware="true"
+83-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+84            android:exported="false" >
+84-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+85            <intent-filter android:priority="-500" >
+85-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:46:9-48:25
+86                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+86-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:47:13-73
+86-->C:\Users\SHAHINSHA\AndroidStudioProjects\Epicsports\app\src\main\AndroidManifest.xml:47:21-71
+87            </intent-filter>
+88        </service>
+89        <service
+89-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:49:9-55:19
+90            android:name="com.google.firebase.components.ComponentDiscoveryService"
+90-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:50:13-84
+91            android:directBootAware="true"
+91-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\ed8893f1a326696110e4d10af8917bc2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+92            android:exported="false" >
+92-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:51:13-37
+93            <meta-data
+93-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+94                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+94-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\6e2911ff4a96486920a1a70539b6e472\transformed\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\cda381e6d581a21f8ef1d05d72493df3\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+97                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+97-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\cda381e6d581a21f8ef1d05d72493df3\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\cda381e6d581a21f8ef1d05d72493df3\transformed\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+99            <meta-data
+99-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\feaade1a728008bc2075a730969adb4f\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:30:13-32:85
+100                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+100-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\feaade1a728008bc2075a730969adb4f\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:31:17-139
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.android.gms:play-services-measurement-api:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\feaade1a728008bc2075a730969adb4f\transformed\jetified-play-services-measurement-api-19.0.1\AndroidManifest.xml:32:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\18c0e629690351d48432cfb385b45491\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+103                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+103-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\18c0e629690351d48432cfb385b45491\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\18c0e629690351d48432cfb385b45491\transformed\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+105        </service>
+106        <service
+106-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\b9467e55791a83d5eda643e07853109f\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+107            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+107-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\b9467e55791a83d5eda643e07853109f\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+108            android:exported="false" >
+108-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\b9467e55791a83d5eda643e07853109f\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+109            <meta-data
+109-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\b9467e55791a83d5eda643e07853109f\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+110                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+110-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\b9467e55791a83d5eda643e07853109f\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+111                android:value="cct" />
+111-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\b9467e55791a83d5eda643e07853109f\transformed\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+112        </service>
+113
+114        <provider
+114-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\ed8893f1a326696110e4d10af8917bc2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+115            android:name="com.google.firebase.provider.FirebaseInitProvider"
+115-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\ed8893f1a326696110e4d10af8917bc2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+116            android:authorities="com.epic.epicsports.firebaseinitprovider"
+116-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\ed8893f1a326696110e4d10af8917bc2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+117            android:directBootAware="true"
+117-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\ed8893f1a326696110e4d10af8917bc2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+118            android:exported="false"
+118-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\ed8893f1a326696110e4d10af8917bc2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+119            android:initOrder="100" />
+119-->[com.google.firebase:firebase-common:20.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\ed8893f1a326696110e4d10af8917bc2\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+120
+121        <receiver
+121-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:29:9-33:20
+122            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+122-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:30:13-85
+123            android:enabled="true"
+123-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:31:13-35
+124            android:exported="false" >
+124-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:32:13-37
+125        </receiver>
+126
+127        <service
+127-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:35:9-38:40
+128            android:name="com.google.android.gms.measurement.AppMeasurementService"
+128-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:36:13-84
+129            android:enabled="true"
+129-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:37:13-35
+130            android:exported="false" />
+130-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:38:13-37
+131        <service
+131-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:39:9-43:72
+132            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+132-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:40:13-87
+133            android:enabled="true"
+133-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:41:13-35
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:42:13-37
+135            android:permission="android.permission.BIND_JOB_SERVICE" />
+135-->[com.google.android.gms:play-services-measurement:19.0.1] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\1d4c5290a3226b8c0a572f3caab4a1f7\transformed\jetified-play-services-measurement-19.0.1\AndroidManifest.xml:43:13-69
+136
+137        <meta-data
+137-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\d66fc2503d88e810862410f94e50b62e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+138            android:name="com.google.android.gms.version"
+138-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\d66fc2503d88e810862410f94e50b62e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+139            android:value="@integer/google_play_services_version" />
+139-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\d66fc2503d88e810862410f94e50b62e\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+140
+141        <service
+141-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\4fb14725412ec96c9b39ddfab36c6dd0\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+142            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+142-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\4fb14725412ec96c9b39ddfab36c6dd0\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+143            android:exported="false"
+143-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\4fb14725412ec96c9b39ddfab36c6dd0\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+144            android:permission="android.permission.BIND_JOB_SERVICE" >
+144-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\4fb14725412ec96c9b39ddfab36c6dd0\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+145        </service>
+146
+147        <receiver
+147-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\4fb14725412ec96c9b39ddfab36c6dd0\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+148            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+148-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\4fb14725412ec96c9b39ddfab36c6dd0\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+149            android:exported="false" />
+149-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\SHAHINSHA\.gradle\caches\transforms-3\4fb14725412ec96c9b39ddfab36c6dd0\transformed\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+150    </application>
+151
+152</manifest>

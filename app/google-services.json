@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "218965812391",
+    "project_id": "epicsports-daa99",
+    "storage_bucket": "epicsports-daa99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218965812391:android:177628a950fa0e6ccf2782",
+        "android_client_info": {
+          "package_name": "com.epic.epicsports"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218965812391-qd30mjq8is7hrvhqpguonpdnl0imsg7a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMiEO4ZKuRG36QRM-uxr90jGk2VR-QG_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218965812391-qd30mjq8is7hrvhqpguonpdnl0imsg7a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -652,6 +652,24 @@ attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
 attr logo
 attr logoDescription
+attr lottieAnimationViewStyle
+attr lottie_autoPlay
+attr lottie_cacheComposition
+attr lottie_colorFilter
+attr lottie_enableMergePathsForKitKatAndAbove
+attr lottie_fallbackRes
+attr lottie_fileName
+attr lottie_ignoreDisabledSystemAnimations
+attr lottie_imageAssetsFolder
+attr lottie_loop
+attr lottie_progress
+attr lottie_rawRes
+attr lottie_renderMode
+attr lottie_repeatCount
+attr lottie_repeatMode
+attr lottie_scale
+attr lottie_speed
+attr lottie_url
 attr marginHorizontal
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogButtonSpacerVisibility
@@ -1936,6 +1954,12 @@ id allStates
 id always
 id animateToEnd
 id animateToStart
+id animationView
+id animationView2
+id animationView3
+id animationView4
+id animationView5
+id animationView6
 id antiClockwise
 id anticipate
 id arc
@@ -1945,6 +1969,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id automatic
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2050,6 +2075,7 @@ id floating
 id forever
 id fragment_container_view_tag
 id frost
+id game
 id ghost_view
 id ghost_view_holder
 id gone
@@ -2059,6 +2085,7 @@ id group_divider
 id grouping
 id groups
 id guideline
+id hardware
 id header_title
 id hideable
 id home
@@ -2091,9 +2118,14 @@ id line3
 id linear
 id listMode
 id list_item
+id livecricket
+id livescore
+id livestream
+id lottie_layer_name
 id masked
 id match_constraint
 id match_parent
+id matchhighlights
 id material_clock_display
 id material_clock_face
 id material_clock_hand
@@ -2193,6 +2225,8 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id restart
+id reverse
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2237,6 +2271,7 @@ id snackbar_action
 id snackbar_text
 id snap
 id snapMargins
+id software
 id south
 id spacer
 id special_effects_controller_view_tag
@@ -2324,7 +2359,9 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id webView
 id west
+id whatspp
 id withText
 id withinBounds
 id wrap
@@ -2341,6 +2378,7 @@ integer cancel_button_image_alpha
 integer config_tooltipAnimTime
 integer design_snackbar_text_max_lines
 integer design_tab_indicator_anim_duration_ms
+integer google_play_services_version
 integer hide_password_duration
 integer material_motion_duration_long_1
 integer material_motion_duration_long_2
@@ -2405,6 +2443,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
 layout activity_splash_screen
+layout activity_web_view
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2494,6 +2533,13 @@ menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw cricket
+raw game
+raw live_score
+raw live_stream
+raw match_highlights
+raw stadium
+raw whats_app
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2531,10 +2577,18 @@ string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
 string close
+string common_google_play_services_unknown_issue
+string default_web_client_id
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fcm_fallback_notification_channel_label
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string item_view_role_description
@@ -2599,6 +2653,7 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
+string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
@@ -3403,6 +3458,7 @@ styleable LinearLayoutCompat android_gravity android_orientation android_baselin
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
+styleable LottieAnimationView lottie_autoPlay lottie_cacheComposition lottie_colorFilter lottie_enableMergePathsForKitKatAndAbove lottie_fallbackRes lottie_fileName lottie_ignoreDisabledSystemAnimations lottie_imageAssetsFolder lottie_loop lottie_progress lottie_rawRes lottie_renderMode lottie_repeatCount lottie_repeatMode lottie_scale lottie_speed lottie_url
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogButtonSpacerVisibility materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType

@@ -1,6 +1,12 @@
 com/epic/epicsports/MainActivity.java
  com.epic.epicsports.MainActivity
  com.epic.epicsports.MainActivity$1
+com/epic/epicsports/WebViews.java
+ com.epic.epicsports.WebViews
+ com.epic.epicsports.WebViews$1
+ com.epic.epicsports.WebViews$myWebViewClient
+com/epic/epicsports/NotificationService.java
+ com.epic.epicsports.NotificationService
 com/epic/epicsports/BuildConfig.java
  com.epic.epicsports.BuildConfig
 com/epic/epicsports/SplashScreen.java
