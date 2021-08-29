@@ -1,6 +1,8 @@
 com/epic/epicsports/MainActivity.java
  com.epic.epicsports.MainActivity
  com.epic.epicsports.MainActivity$1
+com/epic/epicsports/ApplicationClass.java
+ com.epic.epicsports.ApplicationClass
 com/epic/epicsports/WebViews.java
  com.epic.epicsports.WebViews
  com.epic.epicsports.WebViews$1

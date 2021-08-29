@@ -10,7 +10,6 @@ import android.view.WindowManager;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -49,7 +48,9 @@ public class WebViews extends AppCompatActivity {
         wv1.loadUrl(url);
         wv1.setWebViewClient(new myWebViewClient());
 
-
+        if (savedInstanceState == null) {
+            wv1.loadUrl(url);
+        }
         t = new ActionBarDrawerToggle(this, dl, R.string.open, R.string.close);
 
         dl.addDrawerListener(t);
@@ -64,15 +65,20 @@ public class WebViews extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
                 switch (id) {
-                    case R.id.nav_account:
-                        Toast.makeText(WebViews.this, "My Account", Toast.LENGTH_SHORT).show();
+                    case R.id.nav_home:
+                        Intent home = new Intent(WebViews.this, MainActivity.class);
+                        startActivity(home);
+                        home.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                        finish();
                         break;
-                    case R.id.nav_settings:
-                        Toast.makeText(WebViews.this, "Settings", Toast.LENGTH_SHORT).show();
+                    case R.id.nav_privacy:
+                        Intent privacy = new Intent(WebViews.this, WebViews.class);
+                        privacy.putExtra("url", "https://www.epicsports.site/p/privacy-policy.html");
+                        startActivity(privacy);
+                        privacy.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                        finish();
                         break;
-                    case R.id.nav_logout:
-                        Toast.makeText(WebViews.this, "My Cart", Toast.LENGTH_SHORT).show();
-                        break;
+
                     default:
                         return true;
                 }
@@ -98,6 +104,19 @@ public class WebViews extends AppCompatActivity {
     }
 
     @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        wv1.saveState(outState);
+
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        wv1.restoreState(savedInstanceState);
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
 
         if (t.onOptionsItemSelected(item))
@@ -111,6 +130,20 @@ public class WebViews extends AppCompatActivity {
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
             view.loadUrl(url);
             return true;
+        }
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            getSupportActionBar().hide();
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
+        } else {
+            getSupportActionBar().show();
+            getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         }
     }
 
