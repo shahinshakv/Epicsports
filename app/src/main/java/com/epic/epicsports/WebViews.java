@@ -3,13 +3,18 @@ package com.epic.epicsports;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.FrameLayout;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -42,15 +47,21 @@ public class WebViews extends AppCompatActivity {
         setContentView(R.layout.activity_web_view);
         dl = (DrawerLayout) findViewById(R.id.drawer);
         wv1 = (WebView) findViewById(R.id.webView);
-        wv1.getSettings().setJavaScriptEnabled(true);
+        wv1.setWebViewClient(new WebViewClient());
+        wv1.setWebChromeClient(new MyChrome());
+        WebSettings webSettings = wv1.getSettings();
         wv1.getSettings().setDomStorageEnabled(true);
         wv1.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
-        wv1.loadUrl(url);
-        wv1.setWebViewClient(new myWebViewClient());
+
+        webSettings.setJavaScriptEnabled(true);
+        webSettings.setAllowFileAccess(true);
+        webSettings.setAppCacheEnabled(true);
+
 
         if (savedInstanceState == null) {
             wv1.loadUrl(url);
         }
+
         t = new ActionBarDrawerToggle(this, dl, R.string.open, R.string.close);
 
         dl.addDrawerListener(t);
@@ -91,6 +102,46 @@ public class WebViews extends AppCompatActivity {
 
     }
 
+    private class MyChrome extends WebChromeClient {
+
+        protected FrameLayout mFullscreenContainer;
+        private View mCustomView;
+        private WebChromeClient.CustomViewCallback mCustomViewCallback;
+        private int mOriginalOrientation;
+        private int mOriginalSystemUiVisibility;
+
+        MyChrome() {
+        }
+
+        public Bitmap getDefaultVideoPoster() {
+            if (mCustomView == null) {
+                return null;
+            }
+            return BitmapFactory.decodeResource(getApplicationContext().getResources(), 2130837573);
+        }
+
+        public void onHideCustomView() {
+            ((FrameLayout) getWindow().getDecorView()).removeView(this.mCustomView);
+            this.mCustomView = null;
+            getWindow().getDecorView().setSystemUiVisibility(this.mOriginalSystemUiVisibility);
+            setRequestedOrientation(this.mOriginalOrientation);
+            this.mCustomViewCallback.onCustomViewHidden();
+            this.mCustomViewCallback = null;
+        }
+
+        public void onShowCustomView(View paramView, WebChromeClient.CustomViewCallback paramCustomViewCallback) {
+            if (this.mCustomView != null) {
+                onHideCustomView();
+                return;
+            }
+            this.mCustomView = paramView;
+            this.mOriginalSystemUiVisibility = getWindow().getDecorView().getSystemUiVisibility();
+            this.mOriginalOrientation = getRequestedOrientation();
+            this.mCustomViewCallback = paramCustomViewCallback;
+            ((FrameLayout) getWindow().getDecorView()).addView(this.mCustomView, new FrameLayout.LayoutParams(-1, -1));
+            getWindow().getDecorView().setSystemUiVisibility(3846 | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
+        }
+    }
     @Override
     public void onBackPressed() {
         if (wv1.canGoBack()) {
