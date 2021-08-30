@@ -22,6 +22,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
+import com.startapp.sdk.ads.banner.Banner;
 
 public class WebViews extends AppCompatActivity {
 
@@ -30,6 +31,7 @@ public class WebViews extends AppCompatActivity {
     private DrawerLayout dl;
     private ActionBarDrawerToggle t;
     private NavigationView nv;
+    private Banner startAppBanner;
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
@@ -46,6 +48,7 @@ public class WebViews extends AppCompatActivity {
         String url = intent.getStringExtra("url");
         setContentView(R.layout.activity_web_view);
         dl = (DrawerLayout) findViewById(R.id.drawer);
+        startAppBanner = findViewById(R.id.startAppBanner);
         wv1 = (WebView) findViewById(R.id.webView);
         wv1.setWebViewClient(new WebViewClient());
         wv1.setWebChromeClient(new MyChrome());

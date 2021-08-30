@@ -73,12 +73,14 @@
         android:largeHeap="true"
         android:roundIcon="@drawable/epicsports"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.Epicsports" >
         <activity
             android:name="com.epic.epicsports.WebViews"
             android:configChanges="orientation|screenSize"
             android:exported="true"
-            android:hardwareAccelerated="true" />
+            android:hardwareAccelerated="true"
+            android:screenOrientation="sensor" />
         <activity
             android:name="com.epic.epicsports.SplashScreen"
             android:exported="true"
@@ -107,13 +109,13 @@
         </activity>
 
         <!--
-        <service
-            android:name=".NotificationService"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
+          <service
+              android:name=".NotificationService"
+              android:exported="true">
+              <intent-filter>
+                  <action android:name="com.google.firebase.MESSAGING_EVENT" />
+              </intent-filter>
+          </service>
         -->
         <receiver
             android:name="com.onesignal.FCMBroadcastReceiver"

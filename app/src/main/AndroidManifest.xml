@@ -22,6 +22,7 @@
         android:theme="@style/Theme.Epicsports">
         <activity
             android:name=".WebViews"
+            android:screenOrientation="sensor"
             android:configChanges="orientation|screenSize"
             android:hardwareAccelerated="true"
             android:exported="true" />
