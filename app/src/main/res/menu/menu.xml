@@ -15,5 +15,9 @@
         android:id="@+id/dmca"
         android:title="DMCA" />
 
+    <item
+        android:id="@+id/update"
+        android:title="Check Update" />
+
 
 </menu>

@@ -1,11 +1,14 @@
 package com.epic.epicsports;
 
+import static android.content.ContentValues.TAG;
+
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -24,6 +27,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.navigation.NavigationView;
 import com.startapp.sdk.ads.banner.Banner;
+import com.startapp.sdk.adsbase.StartAppAd;
 
 public class WebViews extends AppCompatActivity {
 
@@ -33,6 +37,7 @@ public class WebViews extends AppCompatActivity {
     private ActionBarDrawerToggle t;
     private NavigationView nv;
     private Banner startAppBanner;
+    private StartAppAd startAppAd = new StartAppAd(this);
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
@@ -233,6 +238,14 @@ public class WebViews extends AppCompatActivity {
             getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         }
+    }
+
+    @Override
+    public void onStart() {
+        Log.d(TAG, "onStart:");
+        startAppAd.showAd();
+
+        super.onStart();
     }
 
 }

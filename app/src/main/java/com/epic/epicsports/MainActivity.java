@@ -1,7 +1,11 @@
 package com.epic.epicsports;
 
+import static android.content.ContentValues.TAG;
+
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -24,13 +28,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private NavigationView nv;
     private CardView livestream, livecricket, matchhighlights, livescore, topscrores, game, whatspp;
     private StartAppAd startAppAd = new StartAppAd(this);
+    private boolean show = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        startAppAd.showAd();
+        // startAppAd.showAd();
         dl = (DrawerLayout) findViewById(R.id.drawer);
         livestream = findViewById(R.id.livestream);
         livecricket = findViewById(R.id.livecricket);
@@ -77,6 +82,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         dmca.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                         finish();
                         break;
+                    case R.id.update:
+                        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://bit.ly/Epicsports_V2"));
+                        startActivity(browserIntent);
+
                 }
 
 
@@ -199,5 +208,41 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         startAppAd.onBackPressed();
         super.onBackPressed();
 
+    }
+
+    @Override
+    public void onStart() {
+        Log.d(TAG, "onStart:");
+        if (show) {
+            startAppAd.showAd();
+        }
+        show = true;
+        super.onStart();
+    }
+
+    @Override
+    public void onResume() {
+        Log.d(TAG, "onResume:");
+
+        super.onResume();
+    }
+
+    @Override
+    public void onPause() {
+        Log.d(TAG, "onPause:");
+
+        super.onPause();
+    }
+
+    @Override
+    public void onStop() {
+        Log.d(TAG, "onStop:");
+        super.onStop();
+    }
+
+    @Override
+    public void onDestroy() {
+        Log.d(TAG, "onDestroy:");
+        super.onDestroy();
     }
 }

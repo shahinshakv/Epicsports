@@ -1,138 +1,138 @@
 [
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/raw_news.json.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/raw/news.json"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\raw_top_scorer.json.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\raw\\top_scorer.json"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_web_view.xml.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\layout\\activity_web_view.xml"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/drawable_epicsports.png.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/drawable/epicsports.png"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash.png.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\drawable\\splash.png"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_share.xml.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\drawable\\ic_share.xml"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/menu_menu.xml.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/menu/menu.xml"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_epicsports.png.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\drawable-v24\\epicsports.png"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/raw_top_scorer.json.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/raw/top_scorer.json"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\menu_menu.xml.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\menu\\menu.xml"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\raw_whats_app.json.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\raw\\whats_app.json"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\raw_news.json.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\raw\\news.json"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/raw_live_stream.json.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/raw/live_stream.json"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/drawable-v24_epicsports.png.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/drawable-v24/epicsports.png"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\drawable_epicsports.png.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\drawable\\epicsports.png"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_main.xml.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\layout\\nav_header_main.xml"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/menu_actionbar_menu.xml.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/menu/actionbar_menu.xml"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\drawable_round_top_background.xml.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\drawable\\round_top_background.xml"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/raw_match_highlights.json.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/raw/match_highlights.json"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/layout_nav_header_main.xml.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/layout/nav_header_main.xml"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/layout_activity_splash_screen.xml.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/layout/activity_splash_screen.xml"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/raw_stadium.json.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/raw/stadium.json"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/drawable_ic_share.xml.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/drawable/ic_share.xml"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\raw_live_stream.json.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\raw\\live_stream.json"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/drawable_round_top_background.xml.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/drawable/round_top_background.xml"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\drawable\\ic_home.xml"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/raw_whats_app.json.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/raw/whats_app.json"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\raw_match_highlights.json.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\raw\\match_highlights.json"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/drawable_splash.png.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/drawable/splash.png"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash_screen.xml.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\layout\\activity_splash_screen.xml"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/drawable_ic_home.xml.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/drawable/ic_home.xml"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\menu_actionbar_menu.xml.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\menu\\actionbar_menu.xml"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/raw_live_score.json.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/raw/live_score.json"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/raw_game.json.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/raw/game.json"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\raw_live_score.json.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\raw\\live_score.json"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\raw_game.json.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\raw\\game.json"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/layout_activity_web_view.xml.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/src/main/res/layout/activity_web_view.xml"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\raw_stadium.json.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\raw\\stadium.json"
     },
     {
-        "merged": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/merged_res/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/igt/Desktop/Learning/Epicsports/app/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     }
 ]
