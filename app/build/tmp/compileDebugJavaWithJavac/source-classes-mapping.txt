@@ -1,12 +1,12 @@
-com/epic/epicsports/ApplicationClass.java
- com.epic.epicsports.ApplicationClass
 com/epic/epicsports/BuildConfig.java
  com.epic.epicsports.BuildConfig
+com/epic/epicsports/ApplicationClass.java
+ com.epic.epicsports.ApplicationClass
+com/epic/epicsports/NotificationService.java
+ com.epic.epicsports.NotificationService
 com/epic/epicsports/SplashScreen.java
  com.epic.epicsports.SplashScreen
  com.epic.epicsports.SplashScreen$1
-com/epic/epicsports/NotificationService.java
- com.epic.epicsports.NotificationService
 com/epic/epicsports/MainActivity.java
  com.epic.epicsports.MainActivity
  com.epic.epicsports.MainActivity$1

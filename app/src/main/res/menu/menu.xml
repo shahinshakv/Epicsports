@@ -11,5 +11,9 @@
         android:id="@+id/nav_privacy"
         android:title="Privacy &amp; Policy" />
 
+    <item
+        android:id="@+id/dmca"
+        android:title="DMCA" />
+
 
 </menu>

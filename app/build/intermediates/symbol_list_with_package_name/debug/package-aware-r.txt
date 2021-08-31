@@ -1886,6 +1886,7 @@ drawable epicsports
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_clock_black_24dp
+drawable ic_home
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1894,6 +1895,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_os_notification_fallback_white_24dp
+drawable ic_share
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -2019,6 +2021,7 @@ id animationView3
 id animationView4
 id animationView5
 id animationView6
+id animationView7
 id antiClockwise
 id anticipate
 id arc
@@ -2106,6 +2109,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id dmca
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -2331,6 +2335,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id share
 id sharedValueSet
 id sharedValueUnset
 id shortcut
@@ -2360,6 +2365,7 @@ id src_in
 id src_over
 id standard
 id start
+id startAppBanner
 id startHorizontal
 id startToEnd
 id startVertical
@@ -2412,6 +2418,7 @@ id title_template
 id toggle
 id top
 id topPanel
+id topscrores
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -2618,17 +2625,19 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu actionbar_menu
 menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw consumer_onesignal_keep
-raw cricket
 raw game
 raw live_score
 raw live_stream
 raw match_highlights
+raw news
 raw stadium
+raw top_scorer
 raw whats_app
 string abc_action_bar_home_description
 string abc_action_bar_up_description

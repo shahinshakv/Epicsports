@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+            "outputFile": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w320dp-land-v13/values-w320dp-land-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\SHAHINSHA\\.gradle\\caches\\transforms-3\\eb87269d556861447e94d940122d65bd\\transformed\\material-1.5.0-alpha02\\res\\values-w320dp-land-v13\\values-w320dp-land-v13.xml",
+                    "source": "/Users/igt/.gradle/caches/transforms-3/eb87269d556861447e94d940122d65bd/transformed/material-1.5.0-alpha02/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

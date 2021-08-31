@@ -6,6 +6,7 @@ import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
@@ -92,7 +93,13 @@ public class WebViews extends AppCompatActivity {
                         privacy.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                         finish();
                         break;
-
+                    case R.id.dmca:
+                        Intent dmca = new Intent(WebViews.this, WebViews.class);
+                        dmca.putExtra("url", "https://www.epicsports.site/p/dmca.html");
+                        startActivity(dmca);
+                        dmca.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                        finish();
+                        break;
                     default:
                         return true;
                 }
@@ -103,6 +110,40 @@ public class WebViews extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // R.menu.mymenu is a reference to an xml file named mymenu.xml which should be inside your res/menu directory.
+        // If you don't have res/menu, just create a directory named "menu" inside res
+        getMenuInflater().inflate(R.menu.actionbar_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    // handle button activities
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.home) {
+            Intent mainIntent = new Intent(WebViews.this, MainActivity.class);
+            startActivity(mainIntent);
+            mainIntent.setFlags(mainIntent.FLAG_ACTIVITY_NO_ANIMATION);
+            finish();
+        } else if (id == R.id.share) {
+            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+            sharingIntent.setType("text/plain");
+            String shareBody = "Epicsports offer premium and exclusive sports news and links to watch games online live, News, Wallpapers, Scoreboard, T.V channel Lists.\n" +
+                    "\n" +
+                    "\uD83D\uDCF1 Download Epicsports App\n" +
+                    "\uD83D\uDC49 http://bit.ly/Epicsports_App";
+            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Epic Sports");
+            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+            startActivity(Intent.createChooser(sharingIntent, "Share via"));
+        }
+        if (t.onOptionsItemSelected(item))
+            return true;
+        return super.onOptionsItemSelected(item);
     }
 
     private class MyChrome extends WebChromeClient {
@@ -170,14 +211,7 @@ public class WebViews extends AppCompatActivity {
         wv1.restoreState(savedInstanceState);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
 
-        if (t.onOptionsItemSelected(item))
-            return true;
-
-        return super.onOptionsItemSelected(item);
-    }
 
     public class myWebViewClient extends WebViewClient {
         @Override

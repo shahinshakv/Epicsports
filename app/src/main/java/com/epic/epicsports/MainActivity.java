@@ -2,6 +2,7 @@ package com.epic.epicsports;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private DrawerLayout dl;
     private ActionBarDrawerToggle t;
     private NavigationView nv;
-    private CardView livestream, livecricket, matchhighlights, livescore, game, whatspp;
+    private CardView livestream, livecricket, matchhighlights, livescore, topscrores, game, whatspp;
     private StartAppAd startAppAd = new StartAppAd(this);
 
     @Override
@@ -37,6 +38,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         livescore = findViewById(R.id.livescore);
         game = findViewById(R.id.game);
         whatspp = findViewById(R.id.whatspp);
+        topscrores = findViewById(R.id.topscrores);
+        topscrores.setOnClickListener(this);
         whatspp.setOnClickListener(this);
         game.setOnClickListener(this);
         livescore.setOnClickListener(this);
@@ -67,6 +70,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         privacy.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                         finish();
                         break;
+                    case R.id.dmca:
+                        Intent dmca = new Intent(MainActivity.this, WebViews.class);
+                        dmca.putExtra("url", "https://www.epicsports.site/p/dmca.html");
+                        startActivity(dmca);
+                        dmca.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                        finish();
+                        break;
                 }
 
 
@@ -79,13 +89,36 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // R.menu.mymenu is a reference to an xml file named mymenu.xml which should be inside your res/menu directory.
+        // If you don't have res/menu, just create a directory named "menu" inside res
+        getMenuInflater().inflate(R.menu.actionbar_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
 
+    // handle button activities
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if (id == R.id.home) {
+            Toast.makeText(getApplicationContext(), "Home", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.share) {
+            Intent sharingIntent = new Intent(android.content.Intent.ACTION_SEND);
+            sharingIntent.setType("text/plain");
+            String shareBody = "Epicsports offer premium and exclusive sports news and links to watch games online live, News, Wallpapers, Scoreboard, T.V channel Lists.\n" +
+                    "\n" +
+                    "\uD83D\uDCF1 Download Epicsports App\n" +
+                    "\uD83D\uDC49 http://bit.ly/Epicsports_App";
+            sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, "Epic Sports");
+            sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
+            startActivity(Intent.createChooser(sharingIntent, "Share via"));
+        }
         if (t.onOptionsItemSelected(item))
             return true;
-
         return super.onOptionsItemSelected(item);
     }
+
 
     @Override
     public void onClick(View v) {
@@ -102,7 +135,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.livecricket:
                 Intent livecricket = new Intent(this, WebViews.class);
-                livecricket.putExtra("url", "https://www.epicsports.site/p/live-cricket.html");
+                livecricket.putExtra("url", "https://www.epicsports.site/p/news.html ");
                 this.startActivity(livecricket);
                 startAppAd.showAd();
                 livecricket.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
@@ -120,12 +153,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.livescore:
                 Intent livescore = new Intent(this, WebViews.class);
-                livescore.putExtra("url", "https://www.google.com/search?q=sports&oq=sports&aqs=chrome..69i57j69i60l4.2705j0j7&client=ms-unknown&sourceid=chrome-mobile&ie=UTF-8&ved=1t:45669#sie=lg;/m/021q23;5;/m/021q23;dt;fp;1;;");
+                livescore.putExtra("url", "https://www.epicsports.site/p/point-table.html");
                 this.startActivity(livescore);
                 startAppAd.showAd();
                 livescore.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 finish();
                 break;
+
+            case R.id.topscrores:
+                Intent topscrores = new Intent(this, WebViews.class);
+                topscrores.putExtra("url", "https://www.epicsports.site/p/top-scorers.html");
+                this.startActivity(topscrores);
+                startAppAd.showAd();
+                topscrores.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                finish();
+                break;
+
             case R.id.game:
                 Intent game = new Intent(this, WebViews.class);
                 game.putExtra("url", "https://doodlecricket.github.io/#/");

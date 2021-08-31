@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\SHAHINSHA\\AndroidStudioProjects\\Epicsports\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "outputFile": "/Users/igt/Desktop/Learning/Epicsports/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\SHAHINSHA\\.gradle\\caches\\transforms-3\\ab774d8777f47e15b8b8addb0834b4f9\\transformed\\appcompat-1.3.1\\res\\values-v18\\values-v18.xml",
+                    "source": "/Users/igt/.gradle/caches/transforms-3/ab774d8777f47e15b8b8addb0834b4f9/transformed/appcompat-1.3.1/res/values-v18/values-v18.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
